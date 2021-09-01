@@ -1,3 +1,7 @@
+"""
+Support functions to validate datasets
+"""
+
 from numbers import Number
 from typing import Iterable, Any, Tuple
 from creek.infinite_sequence import simple_interval_relationship, Relations
