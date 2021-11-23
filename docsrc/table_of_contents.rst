@@ -3,3 +3,4 @@
    :caption: Contents:
 
    module_docs/viable
+   module_docs/viable/diagnosis
