@@ -3,15 +3,16 @@ Support functions to validate datasets
 """
 
 from numbers import Number
-from typing import Iterable, Any, Tuple
+from typing import Any, Tuple
+from collections.abc import Iterable
 from creek.infinite_sequence import simple_interval_relationship, Relations
 
 
 Annotation_data = Any
 Wf_ref = Any
-Interval = Tuple[Number, Number]
-Ref_to_annotated = Tuple[Wf_ref, Interval]
-Normalized_annot = Tuple[Ref_to_annotated, Annotation_data]
+Interval = tuple[Number, Number]
+Ref_to_annotated = tuple[Wf_ref, Interval]
+Normalized_annot = tuple[Ref_to_annotated, Annotation_data]
 Normalized_annots = Iterable[Normalized_annot]
 
 
