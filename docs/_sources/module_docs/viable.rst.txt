@@ -1,4 +1,0 @@
-viable
-======
-.. automodule:: viable
-   :members:

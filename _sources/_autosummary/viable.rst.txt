@@ -1,0 +1,13 @@
+﻿viable
+======
+
+.. automodule:: viable
+
+   
+.. rubric:: Modules
+
+.. autosummary::
+   :toctree:
+   :recursive:
+
+   diagnosis

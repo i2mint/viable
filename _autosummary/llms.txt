@@ -1,0 +1,13 @@
+# viable
+
+> Diagnose source data for sound recognition ML
+
+
+## Pages in this subsection
+
+- [viable](viable.html.md): Diagnose audio and other input data for ML pipelines
+- [viable.diagnosis](viable.diagnosis.html.md): Support functions to validate datasets
+
+## Optional
+
+- [Top-level llms.txt](../llms.txt): Complete documentation index.

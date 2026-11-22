@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "built_at": "2026-11-22T22:31:50Z",
+  "package": {
+    "name": "viable",
+    "version": "0.1.3",
+    "display_name": "viable",
+    "source": "pyproject.toml"
+  },
+  "git": {
+    "available": true,
+    "commit": "5b6a6f99f2b1dbde25e12d02b73fb7f61ec20521",
+    "short_commit": "5b6a6f9",
+    "branch": "master",
+    "tags": [],
+    "dirty": false,
+    "remote_url": "https://github.com/i2mint/viable",
+    "commit_url": "https://github.com/i2mint/viable/commit/5b6a6f99f2b1dbde25e12d02b73fb7f61ec20521",
+    "error": null
+  },
+  "ci": {
+    "provider": "github",
+    "repository": "i2mint/viable",
+    "sha": "5b6a6f99f2b1dbde25e12d02b73fb7f61ec20521",
+    "sha_in_history": true,
+    "ref": "refs/heads/master",
+    "ref_name": "master",
+    "run_id": "45078101621",
+    "run_url": "https://github.com/i2mint/viable/actions/runs/45078101621",
+    "server_url": "https://github.com"
+  },
+  "tools": {
+    "epythet": "0.2.23",
+    "sphinx": "9.1.1",
+    "docutils": "0.22.4",
+    "python": "3.12.16"
+  },
+  "config": {
+    "theme": "auto",
+    "html_theme": "sphinxawesome_theme",
+    "accent": "#546000",
+    "mode": "auto",
+    "api_generator": "autosummary",
+    "ignore": [
+      "tests/",
+      "scrap/",
+      "examples/"
+    ],
+    "agent_outputs": true,
+    "aggregates": [
+      "md"
+    ],
+    "ai_artifacts": true,
+    "provenance": true,
+    "docs_dir": "docsrc"
+  },
+  "site": {
+    "modules_documented": 2,
+    "objects_documented": 0
+  },
+  "pypi": {
+    "checked": true,
+    "latest": "0.1.3",
+    "relation": "same",
+    "error": null
+  },
+  "reproduce": "git clone https://github.com/i2mint/viable && cd viable\ngit checkout 5b6a6f99f2b1dbde25e12d02b73fb7f61ec20521\npip install \"epythet==0.2.23\"\nepythet quickstart . --ignore tests/ scrap/ examples/",
+  "warnings": [],
+  "alignment": {
+    "aligned": true,
+    "notes": []
+  }
+}

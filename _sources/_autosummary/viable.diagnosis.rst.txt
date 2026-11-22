@@ -1,0 +1,14 @@
+viable.diagnosis
+================
+
+.. automodule:: viable.diagnosis
+
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      annotated
+      contains_interval
+      interval_of_wf_ref
+   
